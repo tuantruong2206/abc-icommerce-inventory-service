@@ -34,7 +34,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @WebMvcTest(InventoryController.class)
 @EnableSpringDataWebSupport
-//@TestInstance(Lifecycle.PER_CLASS)
+@TestInstance(Lifecycle.PER_CLASS)
 public class InventoryControllerTest extends BaseControllerTest {
 
     @MockBean
